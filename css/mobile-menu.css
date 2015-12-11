@@ -77,4 +77,35 @@
          position:relative;
          float:left;
     }
+    
+    mre-mrt {
+        width:100%;
+    }
+    
+    .mobileAside {
+        width:100%;
+        display:block !important;
+    }
+    
+    .mobileAbout{
+        width:auto;
+        display:block;
+        margin:25px 0px;
+        color:#000000;
+        font-weight:700;
+    }
+    
+    .columnA , .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
+    }
+    
+    .columnA h2, .columnB h2, .columnC h2 {
+        font-size:3em;
+    }
+    fo
+    .mainWidth {
+        width:95%;
+        padding:20px;
+    }
 }
