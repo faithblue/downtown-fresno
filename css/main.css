@@ -298,11 +298,27 @@ a.button:hover, .button:hover {
     width: 384px;
     margin-right: 24px;
 }
+
+.floatLeft {
+    float:left;
+    width:684px;
+    margin-right:20px;
+}
 .alignRight  {
     float: right;
     width: 792px;
     text-align: justify;
 }
+.floatRight {
+    float:right;
+    margin-left:20px;
+    
+}
+
+.clear {
+    clear:both;
+}
+
 /*FOOTER STYLES*/
 
 footer {
@@ -472,6 +488,28 @@ legend {
     border:4px solid #888888;
 }
 
+#myVideos { /* 16X9 ASPECT RATION RORMULA | 9/16=.5625 OR 56.25%*/
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top: 30px;
+    height:0px;
+    overflow:hidden;
+}
+
+#myVideos iframe, #myVideos embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+#myAudio {
+    width:384px;
+    margin:0px auto;
+    text-align: center;
+}
+
 /*PHOTO GALLERY STYLES*/
 
 .galleryImages {
@@ -480,9 +518,16 @@ legend {
     border:2px solid #777777;
     width:300px;
     float:right;
-    margin:5px;
+    margin-right:50px;
 }
 
+.clear {
+    clear:both;
+    padding:20px 0px;
+}
+
+/*http://faithblue.github.io/downtown-fresno/*/
+/*USER AND REPO NAME*/
 @media screen and (max-width:1024px) {
     html, body {
         background-color:#fff;
